@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+   
+    
+    
+}
+
+h2 {
+    width: 100px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: center;
+    float: right;
+    border: 1px solid black;
+    border-top: hidden;
+    border-right: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom-left-radius: 2px;
+ 
+}
+p {
+    text-align: left;
+    float: left;
+    padding: 5px;
+    width: 100%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-top: 2px;
+    text-overflow: clip; 
+}
+div {
+    width: 30%;
+    float: left;
+    border: 1px solid black;
+    margin: 15px;
+    background-color: #5F9EA0;
+    border-radius: 2px;
+}
+h1 {
+    text-align: center;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-bottom: 0;
+   
+}
+.copy {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.prva {
+    background-color: #DEB887;
+    color: #262626;
+}
+.druga {
+    background-color: #FF7F50;
+    color: #fff2e6;
+}
+.treca {
+    background-color: #b300b3;
+    color: #aaff80;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .div1 {
+        width: 45%;
+    }
+    .div2 {
+        width: 45%;
+    }
+    .div3 {
+        width: 94%;
+        
+    }
+}
+@media (max-width: 767px) {
+    .div1 {
+        width: 95%;
+    }
+    .div2 {
+        width: 95%;
+    }
+    .div3 {
+        width: 95%;
+}
+}
